@@ -34,7 +34,7 @@ public class DriverSetUp {
         manager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
 
-        //Gitmek istediğim url adresini açmak için bu komutu kullanırız.
+        //Gitmek istediğimiz url adresini açmak için bu komutu kullanırız.
         driver.get(baseUrl);
 
         //Browser'ı full ekran yaptım buradaki kod yardımıyla
@@ -52,7 +52,7 @@ public class DriverSetUp {
         Assert.assertEquals("These URLs are not matching! ",baseUrl,actualUrl);
     }
 
-    //Burada testim bittikten sonra yapılması gerek operasyonları tanımladım. JUnit yardımıyla
+    //Burada testim bittikten sonra yapılması gereken operasyonları tanımladım. JUnit yardımıyla
     @After
     public void tearDown(){
         //Dedim ki eğer driver boşta değilse , çalışır haldeyse test sonunda browserı kapat.
