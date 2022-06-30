@@ -15,11 +15,12 @@ public class SearchBoxTest extends DriverSetUp{
     @Test
     public void searchBoxTest(){
 
-        //Burada search box'un yerini doğrulamak istedim ve isDisplayed() komutuyla eğer search box orada ise
-        // bana true döndürür
+        //Burada search box'un yerinde olup olmadığını ekrana yazdırmak istedim ve isDisplayed() komutuyla eğer search box orada ise
+        // bana true cevabını verir
         System.out.println("Search Box is Displayed : "+driver.findElement(searchBoxXpath).isDisplayed());
 
-        //Beklediğim ve mevcut sonucu karşılaştırmak için actual tanımlaması yaptım.
+        //Beklediğim ve mevcut sonucu karşılaştırmak için actual tanımlaması yaptım. "isDisplayed()" komutu true , false döndüren bir komut olduğu için
+        //boolean olarak tanımlanması gerekir ama ben String olarak alıp , kullanmak istedim onu. String.valueOf(boolean) yardımıyla bunu sağlarım.
         String searchBoxActual = String.valueOf((boolean) driver.findElement(searchBoxXpath).isDisplayed());
 
         //Burada da beklenen sonucum true döndürmesi ve bunu actualla doğrulayıp karşılaştırmak için birim testi yazdım
