@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d06ca17-4e29-4700-92b0-ad73eda8b877" name="Changes" comment="homework2 is completed">
+      <change afterPath="$PROJECT_DIR$/homework2-PoyrazMMaven/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2-PoyrazMMaven/src/test/java/SearchBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2-PoyrazMMaven/src/test/java/SearchBoxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,15 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SearchBoxTest">
+    <configuration name="All in homework2-PoyrazM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework2-PoyrazM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework2-PoyrazMMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,9 +65,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework2-PoyrazMMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SearchBoxTest" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.All in homework2-PoyrazM" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656602956196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework2 is completed">
+      <created>1656604074870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656604074870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
