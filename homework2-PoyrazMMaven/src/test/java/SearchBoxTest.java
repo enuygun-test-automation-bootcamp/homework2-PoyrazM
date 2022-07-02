@@ -31,5 +31,11 @@ public class SearchBoxTest extends DriverSetUp{
         // Dedim ki eğer search box orada bulunuyorsa bana true döndür. Eğer orada bulunmazsa testim hata verir.
         WebElement searchBoxActual2 = driver.findElement(searchBoxXpath);
         Assert.assertTrue(searchBoxActual2.isDisplayed());
+        
+        // Burada da Type to search textinin , search box'un içinde yazıp yazmadığını kontrol ettim.
+        // Ve assertle doğrulamasını yaptım.
+        String search =  driver.findElement(searchBoxXpath).getAttribute("placeholder");
+        System.out.println("Search box text is : "+search);
+        Assert.assertEquals("Type to search",search);
     }
 }
